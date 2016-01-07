@@ -47,6 +47,7 @@ customstdout.unhook(function () {
 The stdout hijacking is largely based on https://gist.github.com/benbuckman/2758563
 
 The following node modules are referenced:
+
 1. cypto
 2. underscore
 3. memorystream
