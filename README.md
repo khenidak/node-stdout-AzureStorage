@@ -4,7 +4,7 @@ This component allows you redirect node stdout and stream it to Azure Storage (o
 ## The Component Consists of Two Parts ##
 **Azure Stream Writer**: Allows you to perform buffered write (or immediate out of band writes) to an append blob. The component creates new blobs as needed. The module is designed to work in stand alone fashion as well
 
-** stdoutStorage **: Hooks into node stdout to call Azure Stream Writer.
+**stdoutStorage**: Hooks into node stdout to call Azure Stream Writer.
 
 
 ## Basic Usage ##
